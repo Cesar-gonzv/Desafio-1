@@ -18,7 +18,9 @@ function agregarAmigo() {
       
         }
     }
-    
+    //Funcion Para Limpiar Caja
+    limpiarcaja();
+    return;
     //Función para actualizar la lista cuando ingresamos un amigo
   actListaAmigos();
   return;
@@ -27,8 +29,8 @@ function agregarAmigo() {
 //Limpiamos la caja luego de ingresar el nombre de un amigo
 function limpiarcaja(){
 
-  document.getElementById("amigo").value ='';
-  return
+document.getElementById("amigo").value ='';
+return
 }
 //Función para actualizar y mostrar la lista de amigo según el nombre ingresado
 function actListaAmigos(){
