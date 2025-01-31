@@ -19,19 +19,12 @@ function agregarAmigo() {
         }
     }
   //Función para actualizar la lista cuando ingresamos un amigo
-  actListaAmigos();
-  return;
+actListaAmigos();
+return;
   //Funcion Para Limpiar Caja
-  limpiarcaja();
-  return;
+limpiarcaja();
+return;
 
-}
-
-//Limpiamos la caja luego de ingresar el nombre de un amigo
-function limpiarcaja(){
-
-document.getElementById("amigo").value ='';
-return
 }
 //Función para actualizar y mostrar la lista de amigo según el nombre ingresado
 function actListaAmigos(){
@@ -42,6 +35,13 @@ function actListaAmigos(){
         list1.textContent= amigos[i];
         listaHTML.appendChild(list1);
   }
+return
+}
+
+//Limpiamos la caja luego de ingresar el nombre de un amigo
+function limpiarcaja(){
+
+document.getElementById("amigo").value ='';
 return
 }
 //Con la lista de amigos, se realiza el sorteo según la longitud de la lista
