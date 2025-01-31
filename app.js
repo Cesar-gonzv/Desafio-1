@@ -19,8 +19,8 @@ function agregarAmigo() {
         }
     }
     //Funcion Para Limpiar Caja
-    limpiarcaja();
-    return;
+  limpiarcaja();
+  return;
     //Función para actualizar la lista cuando ingresamos un amigo
   actListaAmigos();
   return;
