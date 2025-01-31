@@ -41,7 +41,7 @@ return
 //Limpiamos la caja luego de ingresar el nombre de un amigo
 function limpiarcaja(){
 
-document.getElementById("amigo").value ='';
+document.getElementById("amigo").value ="";
 return
 }
 //Con la lista de amigos, se realiza el sorteo según la longitud de la lista
